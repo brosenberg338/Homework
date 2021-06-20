@@ -1,0 +1,68 @@
+html {
+    font-size : 43px;   
+background-color: tan;
+color:aqua;
+letter-spacing: 12px;
+text-decoration:green underline;
+text-shadow: 5px 5px crimson;
+padding: 12px, 23px,11px;
+text-transform: uppercase;
+
+}
+ img {max-width: 80%; 
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+}   
+
+p {font-size: 1.2 em;
+    font-style: italic;
+    font-weight: bold;
+    color:blue;
+
+}   
+  #logo {width:86px;height:86px;
+     position: fixed;
+    top:0;
+    right:730px;}
+    #BZ {margin-left:0mm; height:87px;}
+
+#kashrus {width: 78px;height: 78px;}
+
+ #pizza {width: 500px; height: 500px;}
+
+
+a:hover {color:cornflowerblue}
+a:active{color: orange;}
+
+#home_page {width:160px;height:160px}
+
+.a {font-family:cursive}
+.b {font-family: Orbitron;}
+
+video { width:33%;
+    @media screen and (max-width: 799) {
+        width:100%;
+    }
+}
+
+section>div {
+    font-size: 1.7em;
+}
+
+section+p {
+    color:bisque
+}
+
+section~p {
+    font-style: italic;
+    color: chartreuse;
+}
+
+div::first-letter {color:blueviolet;}
+section::last-letter {color:(43, 226, 104)t;}
+section::first-line {font-size: larger;}
+section::first-line {font-style: italic ;}
