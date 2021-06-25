@@ -1,0 +1,14 @@
+ html {text-align: center;} 
+input
+ {    display: block;
+      margin:0%;
+     padding: 2em;
+      width: 80%;
+      height: 49px;
+      box-sizing: border-box;  
+      width: 500px;
+      text-align: center;
+} textarea{ 
+    overflow:hidden;
+    resize: none;
+border: 2px dotted orange;}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href= "survey.css">  
+
+</head>
+<body> <p><a href="Index.html"><img src="Delicious_De_Leche.png"id="logo" alt="HTML tutorial"></a></p> 
+    
+    <form action="feedback.php" method="POST"> 
+  <label>
+      FirstName: <input name= "FirstName" placeholder="Enter First Name"
+  </label>
+  <label>LastName: <input name= "LastName" default= "No Name"
+ </label>
+ <br>  <br>
+ <label>
+     <input type= "date" >
+ </label>
+ <label><input type="password" minlength="8" maxlength="243" placeholder="Enter a password between 8 and 243 chars">
+</label>
+ 
+<label><input type="email" value="No Email"></label>
+<label>
+    <br>  <br>
+    <input type="range" placeholder="Number between 1-5">
+</label>
+
+<textarea name="comments" id="comments" draggable="false" placeholder="Please add comments here"></textarea>
+<br> <br>
+<label><input type= "submit"</label>
+
+    </form>
+</body>
+</html>
