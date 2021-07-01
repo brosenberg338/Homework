@@ -23,8 +23,8 @@
 21     grid-template-columns: repeat(8,12.5%);
 22      grid-template-columns: 100px 3em 40%;
 23      grid-template-columns: 1fr 5fr;
-24      
-25
-26
-27
-28
+24      grid-template-columns:50px 1fr 1fr 1fr 50px;
+25       grid-template-columns: 75px 3fr 2fr;
+26        grid-template-rows: 12.5px  12.5px 12.5px 12.5px 1fr;
+27        grid-template: 60% 40% / 200px 1fr;
+28         grid-template:1fr 50px / 20% 1fr
