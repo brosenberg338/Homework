@@ -1,0 +1,75 @@
+html {font-family: helvetica , arial , sans-serif (backup);
+    text-align: center;
+    }
+    nav, footer 
+    {    width: 100%;
+        position: fixed;
+   text-align: center;
+    background-color: black;
+    color: white;
+     } 
+    ul{display: inline;}
+
+
+h1{text-transform: uppercase;}
+h3,h6 {text-align: left;}
+section{ background-color:lightgrey}
+.container {display: inline-grid;
+     grid-template-rows: 1fr 30px;
+    grid-template-columns: 1fr 1px 1fr 1px 1fr;
+    column-gap: 5px;
+
+}
+.mac{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    
+    
+}
+.shira{grid-row: 1/2;
+    grid-column: 3/4;}
+
+.candy{ grid-row:1/2;
+    grid-column: 5/6; }
+
+    #computers{text-align: left;}    
+    #candy{text-align: right;}
+  .Lorem{grid-row: 2/3;
+    grid-column: 1/2;}
+  .Lorem{grid-row: 2/3;
+    grid-column:3/4;}
+  .Lorem{grid-row: 2/3;
+    grid-column:5/6;}
+ 
+    .line{
+        border-right:1px solid black;}
+
+    form  {background-color: lightsteelblue;
+            height: 100px;
+       }
+  label{
+         text-shadow: 2px black;
+          }    
+  table{width: 85%;   }
+ 
+  tbody>tr:nth-child(odd){
+    background-color:skyblue;
+}
+ tr:hover{background-color: blue;}
+th,td{border: 1px solid black;
+  align-content: center;
+}
+#Profits, thead{font-weight:bolder ;}
+.words {text-align: left;}
+
+@media  screen and (max-width:1000px) {
+    
+    label {display: block   }
+  /*  @media  screen and (max-width:1000px) {
+        .container{
+         grid-template-columns: 100%;
+         grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+        }
+
+}
+
