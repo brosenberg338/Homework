@@ -12,7 +12,7 @@ function mapping(arrayOne, callback)   {
 let arrayNums= [3,6,17];
 function double(x)    {
   'use strict';
-  x= x *2;
+  return x *2;
 }
 
 
@@ -21,6 +21,6 @@ console.log(mapping(arrayNums, double));
 let arrayLetters= ['a', 'b', 'c'];
 function turnIntoZ(x)  {
   'use strict';
-  x='z';
+  return 'z';
 }
 console.log(mapping(arrayLetters,turnIntoZ));
