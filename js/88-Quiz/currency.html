@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currencies</title>
+
+    <style>
+        #convertFrom {
+            position: relative;
+            top: 5px;
+            left: 250px;
+        }
+
+        #convertTo {
+            position: relative;
+            top: 5px;
+            left: 650px;
+        }
+
+        #results {
+            position: relative;
+            top: 100px;
+            left: 407px;
+           
+        }
+        #results2 {
+            position: relative;
+            top: 200px;
+            left: 407px;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <form action="submit">
+        <select id="convertFrom" value= "convertFrom">
+            <option value="AUD">Australian dollar</option>
+            <option value="AZN">Azerbaijani manat</option>
+            <option value="RSD">Serbian dinar</option>
+            <option value="RUB">Russian ruble</option>
+            <option value="SRD">Surinamese dollar</option>
+        </select>
+
+        <select id="convertTo" value= "convertTo">
+            <option value="SDG">Sudanese pound</option>
+            <option value="AOA">Angolan kwanza</option>
+            <option value="PHP">Philippine peso</option>
+            <option value="TJS">Tajikistani somoni</option>
+            <option value="TRY">Turkish new lira</option>
+
+        </select>
+        <!--   <button id="submit">Submit</button>-->
+    </form>
+
+    <div id="results"></div>
+    
+    <div id="results2"></div>
+
+
+    <script src="currency.js"></script>
+</body>
+
+</html>
